@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="panaderia,panes,facturas,panaderia cocu">
+    <meta name="author" content="Manuel ibanez astorga,Manuel,ibanez Astorga"/>
+    <meta name="descripcions" content="panaderia  cocu"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Panedria cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../img/cocu_logo-450.png"
+              alt="logo Panedria cocu"
+              width="90px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse t text-white" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="producto.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container my-3">
+      <section>
+        <h1 class="display-1 text-center">contacto</h1>
+        <hr />
+        <article class="row">
+          <aside class="col-sm-12 col-md-6">
+            <form action="">
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label"
+                  >Nombre y apellido</label
+                >
+                <input
+                  type="text"
+                  id="nombreApellido"
+                  placeholder="juan perez"
+                  class="form-control"
+                  minlength="3"
+                  maxlength="60"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input
+                  type="tel"
+                  id="telefono"
+                  placeholder="3817779098"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="juan@gmail.com"
+                  class="form-control"
+                  minlength="3"
+                  maxlength="50"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  id="consulta"
+                  rows="4"
+                  class="form-control"
+                  placeholder="agregu su consulta, hasta 300 caracteres"
+                  maxlength="50"
+                  minlength="10"
+                  required
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">enviar</button>
+            </form>
+          </aside>
+
+          <aside class="col-sm-12 col-md-6 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7120.206847176342!2d-65.20692285037971!3d-26.836662606803657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1654092779380!5m2!1ses-419!2sar"  height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer class="text-center bg-dark text-light py-3 my-2">
+      <div class="d-flex justify-content-around">
+        <div>
+          <img
+            src="../img/cocu_logo-450.png"
+            alt=" logo de cocu panaderia"
+            width="90px"
+          />
+        </div>
+
+        <div>
+          <h4>horarios de atencion</h4>
+          <aside>
+            <ul>
+              <li>Lunes a viernes:09hs-18hs</li>
+              <li>sabados domingos y feriados:09hs-14hs</li>
+            </ul>
+          </aside>
+        </div>
+        <h4>siguenos en nuestras redes:</h4>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
